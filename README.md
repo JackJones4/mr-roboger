@@ -42,9 +42,15 @@ Test: "It should return an array containing a range of numbers from 0 to the inp
 Code:beepBoop(6)
 Expected Output: [0, 1, 2, 3, 4, 5, 6]
 
-Test: "It should
-Code:
-Expected Output:
+Test: "It should return an array where whenever there is a 1 digit displayed it is replaced with 'Beep!'."
+Code: beepBoop(6)
+Expected Output: [0, "Beep!", 2, 3, 4, 5, 6]
+
+Test: "It should return an array where whenever there is a 2 digit displayed it is replaced with 'Boop!'."
+Code: beepBoop(6)
+Expected Output: [0, "Beep!", "Boop!", 3, 4, 5, 6]
+
+
 
 
 
