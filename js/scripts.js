@@ -1,15 +1,25 @@
 // Buisness logic
-// function beepBoop(number) {
-//   const newNumber = parseInt(number);
-//   if (newNumber === 0);
-//   return 0;
-// }
 function beepBoop(number) {
-  const newNumbers = parseInt(number);
-  const array = newNumbers.map(function(number) {
-    return newNumbers[i] + 1;
+  let newNumbers = parseInt(number);
+  // if (newNumbers === 0);
+  let array = [newNumbers];
+  for (let index = 0; index < array.length; index += 1) {
+    array.push(array[index] + 1);
+      }
+}
+
+function beepBoop(number) {
+  let newNumbers = parseInt(number).split("");
+  newNumbers.forEach(function() {
+    console.log(number + 1);
   });
 }
+// function beepBoop(number) {
+//   const newNumbers = parseInt(number);
+//   const array = newNumbers.map(function(number) {
+//     return newNumbers[i] + 1;
+//   });
+// }
 
 //   for (let index = 0; index < newNumbers.length; index += 1) {
 //     newNumbers[i] = newNumbers[i] + 1;
@@ -20,3 +30,8 @@ function beepBoop(number) {
 // }
 
 // UI
+// $(document).ready(function() {
+//   $("#roboForm").submit(function() {
+//     event.preventDefault();
+//   }
+// }
