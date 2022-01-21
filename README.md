@@ -50,6 +50,9 @@ Test: "It should return an array where whenever there is a 2 digit displayed it 
 Code: beepBoop(6)
 Expected Output: [0, "Beep!", "Boop!", 3, 4, 5, 6]
 
+Test: "It should return an array where whenever there is a digit of 3 displayed it is replaced with 'Won't you be my neighbor?'."
+Code: beepBoop(6)
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6]
 
 
 
