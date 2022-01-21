@@ -20,14 +20,14 @@ _This application is designed to showcase knowledge of arrays and looping. The w
 * _Click on the link provided on epicenter_
 * _This will lead you to the repository on GitHub where the webpage is stored_
 * _Once you are on GitHub, you are able to see the code and the files in the webpage as well as this README_
-* _From there, you can clone the repository to your desktop_
-* _Open the html file in a browser of your choosing_
+* _Assuming you have Git installed on your computer, now go to your command line_
+* _Run git clone, with the link provided in the command line_
+* _Right click on the html fiile and open the html file in a browser of your choosing_
 
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Could not get all of the tests to pass._
 
 ## Specs
 
@@ -53,7 +53,19 @@ Test: "It should return an array where whenever there is a digit of 3 displayed 
 Code: beepBoop(6)
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6]
 
+Describe: roboExceptions()
 
+Test: "The number 13 should return 'Won't you be my neighbor?'."
+Code: roboExceptions(13)
+Expected Output: [0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, Beep!, Boop!, Wont you be my neighbor?]
+
+Test: "The number 21 should return 'Boop!'."
+Code: roboExceptions(21)
+Expected Output: [0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, Beep!, Boop!, Wont you be my neighbor?] 14, 15, 16, 17, 18, 19, Boop!, Boop!] Boop!, ]
+
+Test: "The number 32 should be replaced with 'Won't you be my neighbor?'."
+Code: roboExceptions(32)
+Expected Output: [0, "Beep!", Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, Beep!, Boop!, Wont you be my neighbor?] 14, 15, 16, 17, 18, 19, Boop!, Boop!, Boop!, Won't you be my neighbor?, Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Won't you be my neighbor?, Won't you be my neighbor?]
 
 
 ## License
