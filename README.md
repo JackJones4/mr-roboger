@@ -13,7 +13,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This application is designed to showcase knowledge of arrays and looping. The webpage takes input from the user and will display a message. This message will change depending on what the users input actually is. There are exceptions as well. The users input is a number- it can be any number. Based on the number provided, the user will then get a result of an array containing numbers as well as hidden messages._
 
 ## Setup/Installation Requirements
 
@@ -23,7 +23,6 @@ _{This is a detailed description of your application. Give as much detail as nee
 * _From there, you can clone the repository to your desktop_
 * _Open the html file in a browser of your choosing_
 
-__
 
 ## Known Bugs
 
