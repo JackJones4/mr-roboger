@@ -36,11 +36,11 @@ Describe: beepBoop()
 
 Test: "It should return an array of 0 if the number 0 is inputted."
 Code: beepBoop(0)
-Expected Output: 0
+Expected Output: [0]
 
-Test: "It should
-Code:
-Expected Output:
+Test: "It should return an array containing a range of numbers from 0 to the inputted number."
+Code:beepBoop(6)
+Expected Output: [0, 1, 2, 3, 4, 5, 6]
 
 Test: "It should
 Code:
