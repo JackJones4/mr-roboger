@@ -1,4 +1,10 @@
 // Buisness logic
+function beepBoop(number) {
+  let output = [];
+  output.push(number);
+  return output;
+}
+
 // function beepBoop(number) {
 //   let newNumbers = parseInt(number);
 //   // if (newNumbers === 0);
@@ -20,15 +26,15 @@
 //   });
 //   return newNumber;
 // }
-function beepBoop(number) {
-  number = number.toString();
-  let numberArray = [];
-  for (let i = 0; i < number.length; i++) {
-    numberArray[i] = parseInt(number[i]);
-  }
-  return numberArray;
-}
-console.log(beepBoop(6));
+// function beepBoop(number) {
+//   number = number.toString();
+//   let numberArray = [];
+//   for (let i = 0; i < number.length; i++) {
+//     numberArray[i] = parseInt(number[i]);
+//   }
+//   return numberArray;
+// }
+// console.log(beepBoop(6));
 
 // function beepBoop(number) {
 //   let newNumbers = parseInt(number);
