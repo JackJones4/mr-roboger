@@ -41,23 +41,12 @@ Test: "It should replace al numbers containing a '1' with 'Beep!'."
 Code: beepBoop(1)
 Expected Output: [0, "Beep!"]
 
-<!-- Test: "It should return an array containing a range of numbers from 0 to the inputted number."
-Code:beepBoop(6)
-Expected Output: [0, 1, 2, 3, 4, 5, 6]
+Test: "It should replace all numbers containing a '2' with 'Boop!'."
+Code: beepBoop(2)
+Expected Output: [0, "Beep!", "Boop!"]
 
-Test: "It should return an array where whenever there is a 1 digit displayed it is replaced with 'Beep!'."
-Code: beepBoop(6)
-Expected Output: [0, "Beep!", 2, 3, 4, 5, 6]
 
-Test: "It should return an array where whenever there is a 2 digit displayed it is replaced with 'Boop!'."
-Code: beepBoop(6)
-Expected Output: [0, "Beep!", "Boop!", 3, 4, 5, 6]
-
-Test: "It should return an array where whenever there is a digit of 3 displayed it is replaced with 'Won't you be my neighbor?'."
-Code: beepBoop(6)
-Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6] -->
-
-Describe: roboExceptions()
+<!-- Describe: roboExceptions()
 
 Test: "The number 13 should return 'Won't you be my neighbor?'."
 Code: roboExceptions(13)
@@ -69,7 +58,7 @@ Expected Output: [0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 
 
 Test: "The number 32 should be replaced with 'Won't you be my neighbor?'."
 Code: roboExceptions(32)
-Expected Output: [0, "Beep!", Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, Beep!, Boop!, Wont you be my neighbor?] 14, 15, 16, 17, 18, 19, Boop!, Boop!, Boop!, Won't you be my neighbor?, Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Won't you be my neighbor?, Won't you be my neighbor?]
+Expected Output: [0, "Beep!", Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, Beep!, Boop!, Wont you be my neighbor?] 14, 15, 16, 17, 18, 19, Boop!, Boop!, Boop!, Won't you be my neighbor?, Boop!, Boop!, Boop!, Boop!, Boop!, Boop!, Won't you be my neighbor?, Won't you be my neighbor?, Won't you be my neighbor?] -->
 
 
 ## License
