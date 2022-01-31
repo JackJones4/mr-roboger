@@ -1,13 +1,13 @@
-// Buisness logic
 function beepBoop(number){
   let output = [];
-  for (index = 0; index <= number; index += 1){
-    if (index === 1){
-      output.push("Beep!");
-    } else if (index === 2){
-      output.push("Boop!");
-    } else if (index === 3){
+  for (index = 0; index <= number; index ++){
+    let newIndex = index.toString();
+    if (newIndex.includes("3")){
       output.push("Won't you be my neighbor?")
+    } else if (newIndex.includes("2")){
+      output.push("Boop!");
+    } else if (newIndex.includes("1")){
+      output.push("Beep!")
     } else {
       output.push(index);
     }
